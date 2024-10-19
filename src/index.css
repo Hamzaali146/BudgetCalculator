@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #42887C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle i {
+    color: white;
+    font-size: 24px;
+}
+.circleex{
+    background-color:#836F81 ;
+}
