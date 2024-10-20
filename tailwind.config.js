@@ -14,7 +14,11 @@ module.exports = {
       "bordgrey":"#D0D5DD",
       "transwhite":"#F9F9F9",
       "transdict":"#838383",
-      "textblack":"#030303"
+      "textblack":"#030303",
+      "red":"#FFEAEA",
+      "green":"#5AB064",
+      "gre":"#ECFFEA",
+      "redtxt":"#B05A5A"
     }
   },
   plugins: [],

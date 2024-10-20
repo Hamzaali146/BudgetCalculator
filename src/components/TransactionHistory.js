@@ -16,11 +16,12 @@ const TransactionHistory = () => {
               <p className={`text-textblack font-bold text-2xl ${transaction.type === 'income' ? 'text-green-500' : 'text-red-500'}`}>
                 ${transaction.amount.toFixed(2)}
               </p>
+              
               <p className="font-semibold text-transdict">{transaction.description}</p>
               
             </div>
             <div className="flex space-x-2 items-center">
-              
+              <p className={`${transaction.type === 'income' ? 'bg-gre' : 'bg-red'} ${transaction.type === 'income' ? 'text-green' : 'text-redtxt'} rounded`}>{transaction.type}</p>
               <button onClick={() => deleteTransaction(transaction.id)} className="text-red-500">
               <svg width="18" height="18" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_1_1551)">
